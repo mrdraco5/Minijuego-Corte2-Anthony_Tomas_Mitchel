@@ -1,0 +1,77 @@
+{
+   "coleccionables":[
+      {
+         "nombre":"Banana",
+         "rareza":"Comun",
+         "valor":10,
+         "iconoId":"Banana"
+      },
+      {
+         "nombre":"Orange",
+         "rareza":"Comun",
+         "valor":5,
+         "iconoId":"Orange"
+      },
+      {
+         "nombre":"Melon",
+         "rareza":"Epico",
+         "valor":20,
+         "iconoId":"Melon"
+      },
+      {
+         "nombre":"Strawberry",
+         "rareza":"Raro",
+         "valor":30,
+         "iconoId":"Strawberry"
+      },
+      {
+         "nombre":"GoldenApple",
+         "rareza":"Legendario",
+         "valor":200,
+         "iconoId":"GoldenApple"
+      }
+   ],
+   "misiones":[
+      {
+         "id":1,
+         "titulo":"Canasta especial",
+         "descripcion":"Recolecta 1 Orange, 2 Strawberry y 2 Melon explorando el nivel.",
+         "objetivos":[
+            {
+               "itemName":"Orange",
+               "cantidad":1
+            },
+            {
+               "itemName":"Strawberry",
+               "cantidad":2
+            },
+            {
+               "itemName":"Melon",
+               "cantidad":2
+            }
+         ]
+      },
+      {
+         "id":2,
+         "titulo":"Recolector veloz",
+         "descripcion":"Recolecta 3 Bananas en menos de 15 segundos.",
+         "objetivos":[
+            {
+               "itemName":"Banana",
+               "cantidad":3
+            }
+         ]
+      },
+      {
+         "id":3,
+         "titulo":"Escape final",
+         "descripcion":"Una lava comienza a subir. Escala hasta la cima antes de que te alcance y recolecta la fruta legendaria.",
+         "objetivos":[
+            {
+               "itemName":"GoldenApple",
+               "cantidad":1
+            }
+         ]
+      }
+   ]
+}
